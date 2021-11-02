@@ -316,6 +316,9 @@ a {
   p {
     font-size: 18px !important;
   }
+  .idyll-text-container {
+    max-width: calc(100vh - 21em) !important;
+  }
   .navbar-wrapper {
     padding: 25px 20px;
   }
@@ -323,8 +326,8 @@ a {
     height: 30px;
   }
   .header-wrapper {
-    width: auto;
-    margin-top: 0px;
+    width: 90%;
+    margin-top: 30%;
   }
   .header-wrapper h1 {
     font-size: 30px;
@@ -339,7 +342,7 @@ a {
     padding: 30px 30px;
   }
   .newsletter-box h2 {
-    font-size: 28px;
+    font-size: 26px;
     max-width: 100%;
   }
   .email-input-box {
@@ -353,6 +356,9 @@ a {
   }
   .contact-box-header h2 {
     font-size: 24px;
+  }
+  ul, li {
+    font-size: 16px;
   }
   /* .newsletter-box {
     padding: 0% 5%;
@@ -400,9 +406,6 @@ a {
 }
 
 @media(min-width: 1000px) and (max-width: 1300px) {
-  .header-wrapper {
-    width: calc(100% - 20em);
-  }
   .newsletter-box {
     max-width: 1100px;
     height: 520px;
